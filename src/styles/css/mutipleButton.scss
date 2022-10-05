@@ -1,0 +1,24 @@
+.button-list {
+  padding: 0 0 1rem 1rem;
+  overflow-x: auto;
+  display: flex;
+  border-bottom: 0.5px solid #E6E6E6;
+  background-color: #fff;
+}
+.button {
+  margin-right: 1.25rem;
+  text-align: center;
+}
+.button-img {
+  width: 2.875rem;
+  height: 2.875rem;
+}
+.button-text {
+  font-size: .75rem;
+  color: #7C7879;
+  white-space: nowrap;
+}
+// 不显示滚动条
+::-webkit-scrollbar {
+  display: none;
+}

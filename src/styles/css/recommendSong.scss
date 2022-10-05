@@ -1,0 +1,28 @@
+.recommend-song {
+  border-radius: 0 0 .625rem .625rem;
+  margin-bottom: .625rem;
+}
+.songsTypes {
+  display: flex;
+  padding-left: 1rem;
+  overflow-x: auto;
+}
+.songsTypes-item {
+  padding-right: .625rem;
+}
+.songsTypes-image {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-bottom: .25rem;
+}
+.songsTypes-text {
+  width: 6.25rem;
+  font-size: .75rem;
+  overflow: hidden;
+  // 一行显示省略号写法
+  // white-space: nowrap;
+  // text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
